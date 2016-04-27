@@ -8,10 +8,7 @@
 
 - `git fetch chatter-styles`
 - `git merge -s subtree --squash chatter-styles/master`
-<<<<<<< HEAD
-=======
 - Or `git merge -X subtree=src/styles --squash chatter-styles/master` if things went [wrong][offical-docs].
->>>>>>> 4ad3e24... [backport] - updated readme
 - `git commit -m "Updated styles from subtree"`
 
 
@@ -20,11 +17,7 @@
 - `git checkout (-b) chatter-styles (chatter-styles/master)`
 - `git cherry-pick -x (whatever)`
 - `git cherry-pick -x --strategy=subtree master^`
-<<<<<<< HEAD
-- `git push`
-=======
 - `git push`
 
 [offical-docs]: https://www.kernel.org/pub/software/scm/git/docs/howto/using-merge-subtree.html
 [medium-post]: https://medium.com/@porteneuve/mastering-git-subtrees-943d29a798ec#.mplu0dq3y
->>>>>>> 4ad3e24... [backport] - updated readme
