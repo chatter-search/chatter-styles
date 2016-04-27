@@ -8,7 +8,6 @@ This should create `/src/styles` subfolder with all shared styles
 
 - `git fetch chatter-styles`
 - `git merge -s subtree --squash chatter-styles/master`
-- Or `git merge -X subtree=src/styles --squash chatter-styles/master` if things went wrong with the first one.
 - `git commit -m "Updated styles from subtree"`
 
 
